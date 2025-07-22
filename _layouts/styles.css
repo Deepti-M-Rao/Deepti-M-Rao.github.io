@@ -1,36 +1,62 @@
-body {
-  background-color: blue;
-  font-family: 'B612', sans-serif;
-  line-height: 1.6;
+* {
+font-family: 'B612', sans-serif;
+font-family: 'B612', serif;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+        color: #cc3333;
+        text-decoration: none;
+}
+h3 {
+        color: #22b14d;
+        text-decoration: none;
+}
+i.fas,
+i.fab {
+	color: #cc3333;
+    }
+
+.button {
+        background-color: #ffed00;
+	border: 2px solid green;
+        color: black;
+	font-family: 'B612', sans-serif;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+	#width: 500px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+a:link, a:visited {
+	background-color: #FFFFFF;
+	color: black;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
-header {
-background: #35424a;
-color: #ffffff;
-padding: 10px 0;
-text-align: center;
+a:hover, a:active {
+	background-color: #ffffff;
+	color: #cc3333;
+	border: 2px solid green;
+	padding: 3px 3px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
-
-nav a {
-color: #ffffff;
-text-decoration: none;
-padding: 10px 15px;
+img {
+	text-align: "left";
 }
-
-nav a:hover {
-background: #e8491d;
-}
-
-main {
-padding: 20px;
-}
-
-footer {
-background: #35424a;
-color: #ffffff;
-text-align: center;
-padding: 10px 0;
-position: relative;
-bottom: 0;
-width: 100%;
-}
+.pagenum { /* uncomment the next line for invisible page numbers */
+    visibility: hidden;  
+    position: absolute;
+    left: 92%;
+    font-size: smaller;
+    text-align: right;
+} /* page numbers */
